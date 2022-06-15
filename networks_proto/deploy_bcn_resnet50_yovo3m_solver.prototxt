@@ -1,0 +1,19 @@
+train_net: "./Network/deploy_bcn_resnet50_yovo3m.prototxt"
+
+base_lr: 0.008
+lr_policy: "cosine"
+max_iter: 420000
+
+type: "Nesterov"
+
+iter_size: 4
+
+display: 20
+average_loss: 20
+
+momentum: 0.9
+weight_decay: 0.0001
+clip_gradients: 160
+
+snapshot: 10000
+snapshot_prefix: "./Model/deploy_bcn_resnet50_yovo3m"

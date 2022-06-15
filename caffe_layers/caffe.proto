@@ -1,0 +1,15 @@
+// NOTE
+// Update the next available ID when you add a new LayerParameter field.
+
+message LayerParameter {
+  optional SoftmaxBiCalibrateLossParam softmax_bi_calibrate_loss_param = 256;
+}
+
+message SoftmaxBiCalibrateLossParam{
+  optional string source = 1;
+  optional float t2q_threshold = 2 [default = 0.50]; 
+  optional float q2t_threshold = 3 [default = 0.70];
+  optional float alpha = 4 [default = 0.90];
+  optional int32 num_train = 5 [default = 2958092];
+}
+
