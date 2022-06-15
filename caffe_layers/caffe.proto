@@ -12,4 +12,3 @@ message SoftmaxBiCalibrateLossParam{
   optional float alpha = 4 [default = 0.90];
   optional int32 num_train = 5 [default = 2958092];
 }
-

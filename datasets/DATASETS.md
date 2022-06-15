@@ -1,5 +1,5 @@
 # YOVO-3M and YOVO-10M datasets
-We provide the newly-created large-scale web video datasets YOVO-3M and YOVO-10M with the format of original video id and related meta data (e.g., search query and video title). 
+We provide the newly-created large-scale web video datasets YOVO-3M and YOVO-10M with the format of original video id and related meta data (e.g., searched query and video title). 
 
 Since all web videos are collected from YouTube, you can obtain the video URL through the combination of https://www.youtube.com/watch?v= + video_id. (e.g., https://www.youtube.com/watch?v=pReZC78Hb-s) 
 
@@ -15,7 +15,7 @@ In the zip file of `YOVO-3M.zip`, there are four files in it:
 - YOVO-3M_video_title.txt
 
 ### YOVO-3M_video.csv
-Each line in this file contains a video id, the start time and end time (second) for the sampled clip and the corresponding query id.
+Each line in this file contains a video id, the start time and end time (second) for the sampled video clip and the corresponding query id.
 
 ### YOVO-3M_query.txt
 Each line in this file contains a query label. The query id in `YOVO-3M_video.csv` file is the column index of this file.
@@ -38,7 +38,7 @@ In the zip file of YOVO-10M, there are eight files in it:
 - n(v)_word_video_title.txt
 
 ### n(v)_word_video.csv
-Each line in these two files contains a video id, the start time and end time (second) for the sampled clip and the corresponding query id.
+Each line in these two files contains a video id, the start time and end time (second) for the sampled video clip and the corresponding query id.
 
 ### n(v)_word_query.txt
 Each line in these two files contains a query label. The query id in `n(v)_word_video.csv` file is the column index of the `n(v)_word_query.txt` file.
