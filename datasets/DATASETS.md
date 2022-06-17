@@ -18,7 +18,7 @@ In the zip file of `YOVO-3M.zip`, there are four files in it:
 Each line in this file contains a video id, the start time and end time (second) for the sampled video clip and the corresponding query id.
 
 ### YOVO-3M_query.txt
-Each line in this file contains a query label. The query id in `YOVO-3M_video.csv` file is the column index of this file.
+Each line in this file contains a query label. The query id of each query is the row index (start from 0).
 
 ### YOVO-3M_video_id.txt
 Each line in this file contains a video id.
@@ -41,7 +41,7 @@ In the zip file of YOVO-10M, there are eight files in it:
 Each line in these two files contains a video id, the start time and end time (second) for the sampled video clip and the corresponding query id.
 
 ### n(v)_word_query.txt
-Each line in these two files contains a query label. The query id in `n(v)_word_video.csv` file is the column index of the `n(v)_word_query.txt` file.
+Each line in these two files contains a query label. The query id of each query for each file is the row index (start from 0).
 
 ### n(v)_word_video_id.txt
 Each line in these two files contains a video id.
