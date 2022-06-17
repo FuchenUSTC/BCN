@@ -9,6 +9,7 @@ You could also check the design of the calibration selection and the process of 
 ## YOVO-3M and YOVO-10M
 The newly-created large-scale web video datasets YOVO-3M and YOVO-10M are attached in the `./datasets`. Please check the `DATASETS.md` in the folder for more details.
 
+The download link of related files is https://pan.baidu.com/s/17wR4uYNqMfjLUo0KhXJBuQ (code: dzel) 
 
 ## Prerequisites
 
