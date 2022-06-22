@@ -35,9 +35,10 @@ These files include the network structure of BCN (`deploy_bcn_resnet50_yovo3m.pr
 ## Citation
 
 If you use these models and datasets in your research, please cite:
+
 @article{Long:BCN22,
     title={Bi-Calibration Networks for Weakly-Supervised Video Representation Learning},
     author={Fuchen Long and Ting Yao and Zhaofan Qiu and Xinmei Tian and Jiebo Luo and Tao Mei},
-    year={2022},
     journal={arXiv preprint arXiv:2206.10491},
+	year={2022},
 }
