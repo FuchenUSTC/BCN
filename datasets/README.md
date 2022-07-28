@@ -3,6 +3,9 @@ We provide the newly-created large-scale web video datasets YOVO-3M and YOVO-10M
 
 Since all web videos are collected from YouTube, you can obtain the video URL through the combination of https://www.youtube.com/watch?v= + video_id. (e.g., https://www.youtube.com/watch?v=pReZC78Hb-s) 
 
+## License
+YOVO-3M and YOVO-10M by F. Long, T. Yao, Z. Qiu, X. Tian, J. Luo and T. Mei is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
+
 ## Download Link
 [Baidu Cloud]
 https://pan.baidu.com/s/17wR4uYNqMfjLUo0KhXJBuQ (code: dzel) 
@@ -49,5 +52,3 @@ Each line in these two files contains a video id.
 ### n(v)_word_video_title.txt
 Each line in these two file contains a title for each video, the corresponding video id is in the same line of `n(v)_word_video_id.txt`.
 
-## License
-YOVO-3M and YOVO-10M by F. Long, T. Yao, Z. Qiu, X. Tian, J. Luo and T. Mei is licensed under a Creative Commons Attribution 4.0 International License (CC BY 4.0).
