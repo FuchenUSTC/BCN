@@ -7,7 +7,7 @@ You can easily integrate the loss function layer into your own Caffe repository.
 You could also check the design of the calibration selection and the process of the optimization in these codes.
 
 ## YOVO-3M and YOVO-10M
-The newly-created large-scale web video datasets YOVO-3M and YOVO-10M are attached in the `./datasets`. Please check the `DATASETS.md` in the folder for more details.
+The details of newly-created large-scale web video datasets YOVO-3M and YOVO-10M are attached in the `./datasets`. Please check the `README.md` in that folder for more details.
 
 The download link of related files is https://pan.baidu.com/s/17wR4uYNqMfjLUo0KhXJBuQ (code: dzel) 
 
