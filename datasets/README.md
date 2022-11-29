@@ -10,6 +10,10 @@ YOVO-3M and YOVO-10M by F. Long, T. Yao, Z. Qiu, X. Tian, J. Luo and T. Mei is l
 [Baidu Cloud]
 https://pan.baidu.com/s/17wR4uYNqMfjLUo0KhXJBuQ (code: dzel) 
 
+## Datasheets for YOVO-3M/10M
+
+Please see the `Datasheets.pdf` for more details about the two datasets.
+
 ## YOVO-3M Formats
 In the zip file of `YOVO-3M.zip`, there are four files in it:
 - YOVO-3M_video.csv
